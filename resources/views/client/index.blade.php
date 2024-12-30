@@ -61,6 +61,7 @@
                 <option value="" disabled selected>-- Pilih Category --</option>
                 @foreach ($category as $val)
                   <option value="{{ $val->id }}">{{ $val->name }}</option>
+                  <option value=
                 @endforeach
               </select>
             </div>
